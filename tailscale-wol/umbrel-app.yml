@@ -2,6 +2,7 @@ manifestVersion: 1
 id: tailscale-wol
 category: networking
 name: Tailscale + AWAKE
+icon: https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/icon.svg
 version: "v1.84.2"
 tagline: Zero config VPN to access your Umbrel from anywhere
 description: >-
@@ -19,7 +20,7 @@ website: https://tailscale.com
 dependencies: []
 repo: https://github.com/tailscale/tailscale
 support: https://tailscale.com/contact/support
-port: 8240
+port: 9240
 gallery:
   - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/1.jpg
   - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/2.jpg
