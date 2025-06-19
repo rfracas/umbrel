@@ -1,0 +1,5 @@
+
+# Put this lines at bottom of original umbrel file #
+
+/dev/disk/by-partuuid/dc8ad303-01           /mnt/sda1/                   auto                           defaults,nofail         0       0 
+/mnt/sda1/app-data/bitcoin/blocks           /home/umbrel/umbrel/app-data/bitcoin/data/bitcoin/blocks    none bind               0       0

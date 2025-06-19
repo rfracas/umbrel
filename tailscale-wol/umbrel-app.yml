@@ -1,0 +1,36 @@
+manifestVersion: 1
+id: rfracas_tailscale
+category: networking
+name: Tailscale + AWAKE
+version: "v1.84.2"
+tagline: Zero config VPN to access your Umbrel from anywhere
+description: >-
+  Tailscale is zero config VPN that creates a secure network between
+  your Umbrel and your other devices. Even when separated by firewalls or
+  subnets, Tailscale just works.
+
+
+  Tailscale will assign your Umbrel a stable IP and an auto-assigned domain that stays consistent, no matter what network your Umbrel is connected to. It's like a local network that works everywhere.
+
+
+  Tailscale builds on top of WireGuard®'s Noise protocol encryption, a peer-reviewed and trusted standard.
+developer: Tailscale Inc.
+website: https://tailscale.com
+dependencies: []
+repo: https://github.com/tailscale/tailscale
+support: https://tailscale.com/contact/support
+port: 8240
+gallery:
+  - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/1.jpg
+  - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/2.jpg
+  - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/3.jpg
+path: ""
+deterministicPassword: false
+torOnly: false
+submitter: rfracas
+submission: https://github.com/rfracas/umbrel/
+releaseNotes: >-
+  This release includes a tailscale standard with awake client installed.
+
+
+  Full release notes are available at https://tailscale.com/changelog
