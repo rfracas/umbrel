@@ -7,4 +7,4 @@ services:
     command: sh -c 'apk add awake & tailscale web --listen 0.0.0.0:9240 & exec tailscaled --tun=userspace-networking'
     volumes:
       - ${APP_DATA_DIR}/data:/var/lib
-    container_name: tailscale_web_wol_1
+    container_name: rfracas_tailscale_web_1

@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: tailscale-wol
+id: rfracas-tailscale
 category: networking
 name: Tailscale + AWAKE
 icon: https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/icon.svg
