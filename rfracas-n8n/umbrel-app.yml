@@ -1,7 +1,7 @@
 manifestVersion: 1
-id: rfracas_n8n
+id: rfracas-n8n
 category: automation
-name: n8n
+name: n8n + tailscale
 version: "1.99.1"
 releaseNotes: >-
   Full release notes are found at https://github.com/n8n-io/n8n/releases
@@ -32,5 +32,5 @@ gallery:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-submitter: Pranshu Agrawal
-submission: https://github.com/getumbrel/umbrel-apps/pull/283
+submitter: rfracas
+submission: https://github.com/rfracas/umbrel/
