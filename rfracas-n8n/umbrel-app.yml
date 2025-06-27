@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rfracas-n8n
 category: automation
 name: n8n + tailscale
-version: "1.99.1"
+version: "1.99.1.1"
 releaseNotes: >-
   Full release notes are found at https://github.com/n8n-io/n8n/releases
 tagline: Build complex workflows, really fast

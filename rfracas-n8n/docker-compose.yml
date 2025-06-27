@@ -1,7 +1,7 @@
 services:
   app_proxy:
     environment:
-      APP_HOST: rfracas_n8n_server_1
+      APP_HOST: rfracas-n8n_server_1
       APP_PORT: 5678
       # These webhook endpoints are protected using Basic or Header Auth
       # More details here: https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/
