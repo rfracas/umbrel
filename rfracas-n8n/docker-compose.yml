@@ -13,7 +13,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/home/node/.n8n
     stop_grace_period: 1m
-    container_name: rfracas_n8n_server_1
+    container_name: rfracas-n8n_server_1
     environment:
       - PUID=1000
       - PGID=1000
