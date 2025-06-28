@@ -23,5 +23,4 @@ services:
       - N8N_DIAGNOSTICS_ENABLED=false
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
       - N8N_RUNNERS_ENABLED=true
-      - N8N_PORT=5678
-      - N8N_PATH=/n8n/
+    # - N8N_PATH=/n8n/
