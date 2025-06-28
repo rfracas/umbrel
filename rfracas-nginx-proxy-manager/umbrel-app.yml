@@ -4,7 +4,7 @@ name: Nginx Proxy Manager
 icon: https://github.com/getumbrel/umbrel-apps-gallery/blob/master/nginx-proxy-manager/icon.svg
 tagline: Expose your services easily and securely
 category: networking
-version: "2.12.3"
+version: "2.12.4"
 port: 4498
 description: >-
   Expose your apps to the internet easily and securely.
