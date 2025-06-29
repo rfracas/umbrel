@@ -20,8 +20,7 @@ services:
       - PUID=1000
       - PGID=1000
       # Used to set the url for editor, REST API & webhooks
-      - N8N_HOST=n8n.rfracasso.duckdns.org
-      - WEBHOOK_URL=https://n8n.securityfocal.com/
+      - N8N_HOST="n8n.rfracasso.duckdns.org"
       - N8N_SECURE_COOKIE=false
       - N8N_PUSH_BACKEND=websocket
       - N8N_DIAGNOSTICS_ENABLED=false
