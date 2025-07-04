@@ -5,7 +5,7 @@ services:
       APP_PORT: 5678
       # These webhook endpoints are protected using Basic or Header Auth
       # More details here: https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/
-      PROXY_AUTH_WHITELIST: "/webhook-test/*,/webhook/*"
+      PROXY_AUTH_WHITELIST: "/webhook-test/*,/webhook/*,/rest/*"
 
   server:
     image: n8nio/n8n:1.99.1@sha256:2537366a01590c499a4f2c9006da55cdda4c572fd2765a99f5687187ae1cd4be
@@ -19,11 +19,11 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      # Used to set the url for editor, REST API & webhooks
-      - N8N_HOST="n8n.rfracasso.duckdns.org"
+      - N8B_HOST=$DEVICE_DOMAIN_NAME
+      - WEBHOOK_URL=https://umbrel-1.tail000ba5.ts.net
+      - NODE_ENV=production
       - N8N_SECURE_COOKIE=false
-      - N8N_PUSH_BACKEND=websocket
       - N8N_DIAGNOSTICS_ENABLED=false
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
       - N8N_RUNNERS_ENABLED=true
-    # - N8N_PATH=/n8n/
+ 

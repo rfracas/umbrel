@@ -2,8 +2,8 @@ manifestVersion: 1
 id: rfracas-tailscale
 category: networking
 name: Tailscale + AWAKE
-icon: https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/icon.svg
-version: "v1.84.2"
+icon: https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/icon.svg?raw=true
+version: "v1.84.2.6"
 tagline: Zero config VPN to access your Umbrel from anywhere
 description: >-
   Tailscale is zero config VPN that creates a secure network between
@@ -22,9 +22,9 @@ repo: https://github.com/tailscale/tailscale
 support: https://tailscale.com/contact/support
 port: 9240
 gallery:
-  - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/1.jpg
-  - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/2.jpg
-  - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/3.jpg
+  - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/1.jpg?raw=true
+  - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/2.jpg?raw=true
+  - https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/3.jpg?raw=true
 path: ""
 deterministicPassword: false
 torOnly: false
