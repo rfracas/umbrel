@@ -1,0 +1,12 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: rfracas-open-webui_web_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: ghcr.io/open-webui/open-webui:v0.6.15@sha256:fda936056184035a71a9ad5ff3721530ff061f16bc3907efb33a3201ba87ccfe
+    volumes:
+      - ${APP_DATA_DIR}/data/open-webui:/app/backend/data
+    restart: on-failure
