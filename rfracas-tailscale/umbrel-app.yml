@@ -3,7 +3,7 @@ id: rfracas-tailscale
 category: networking
 name: Tailscale + AWAKE
 icon: https://github.com/getumbrel/umbrel-apps-gallery/blob/master/tailscale/icon.svg?raw=true
-version: "v1.86.2.7"
+version: "v1.86.2.8"
 tagline: Zero config VPN to access your Umbrel from anywhere
 description: >-
   Tailscale is zero config VPN that creates a secure network between

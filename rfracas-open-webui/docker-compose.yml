@@ -6,7 +6,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   web:
-    image: ghcr.io/open-webui/open-webui:v0.6.18@sha256:fda936056184035a71a9ad5ff3721530ff061f16bc3907efb33a3201ba87ccfe
+    image: ghcr.io/open-webui/open-webui:v0.6.18
     volumes:
       - ${APP_DATA_DIR}/data/open-webui:/app/backend/data
     restart: on-failure
