@@ -5,7 +5,7 @@ name: Open WebUI
 icon: https://github.com/getumbrel/umbrel-apps-gallery/blob/master/open-webui/icon.svg?raw=true
 tagline: Chat with Ollama models like DeepSeek-R1 and LLama, or use an OpenAI API key
 category: ai
-version: "0.6.15.1"
+version: "0.6.18.2"
 port: 2876
 description: >-
   Open WebUI lets you chat with advanced AI models running locally on your own device or connect to online models using an API key.
