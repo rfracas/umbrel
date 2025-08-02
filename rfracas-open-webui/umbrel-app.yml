@@ -5,7 +5,7 @@ name: Open WebUI
 icon: https://github.com/getumbrel/umbrel-apps-gallery/blob/master/open-webui/icon.svg?raw=true
 tagline: Chat with Ollama models like DeepSeek-R1 and LLama, or use an OpenAI API key
 category: ai
-version: "0.6.18.2"
+version: "0.6.18"
 port: 2876
 description: >-
   Open WebUI lets you chat with advanced AI models running locally on your own device or connect to online models using an API key.
@@ -38,16 +38,11 @@ defaultUsername: ""
 defaultPassword: ""
 dependencies:
 releaseNotes: >-
-  Key highlights in this release include:
-    - Global Image Compression Option to optimize all image uploads and outputs for faster load times
-    - Custom Speech-to-Text Content-Type for better audio transcription compatibility
-    - User Message Timestamps on Hover in Chat Bubble UI for better context
-    - Leaderboard Sorting Options for clearer analysis of top performers
-    - Evaluation Details Modal for deeper insights into feedbacks and rankings
-    - Support for Multiple Pages in External Document Loaders
-    - New Accessibility Enhancements including better tab navigation and ARIA support
-    - Performance and Stability Upgrades across frontend and backend
-    - Updated and Expanded Localizations for multiple languages
+  ## Fixed
+  
+  - 🚑 Users Not Loading in Groups: Resolved an issue where user list was not displaying within user groups, restoring full visibility and management of group memberships for teams and admins.
+  
+  Full release notes are found at https://github.com/open-webui/open-webui/releases/tag/v0.6.18
     - More descriptive Ollama error messages for better troubleshooting
     - Fixed issues with webloader bypass, citation duplicates, and OAuth callbacks
     - Dedicated Permission for System Prompts for enhanced security control
